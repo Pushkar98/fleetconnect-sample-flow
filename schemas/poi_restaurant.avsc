@@ -1,0 +1,22 @@
+{
+  "type": "record",
+  "name": "Restaurant",
+  "namespace": "com.fleetconnect.poi",
+  "doc": "Recommended restaurant event. Topic poi.restaurant.v1, key = restaurant_id. Coordinates are WGS84 (EPSG:4326), longitude/latitude order.",
+  "fields": [
+    {"name": "restaurant_id",        "type": "string", "doc": "Stable business id, also the Kafka message key."},
+    {"name": "name",                 "type": "string"},
+    {"name": "cuisine",              "type": "string"},
+    {"name": "recommendation_score", "type": "double", "doc": "0..5, synthetic editorial score."},
+    {"name": "price_band",           "type": "string", "doc": "€ to €€€€."},
+    {"name": "lon",                  "type": "double", "doc": "Longitude, WGS84 (EPSG:4326)."},
+    {"name": "lat",                  "type": "double", "doc": "Latitude, WGS84 (EPSG:4326)."},
+    {"name": "geometry_wkt",         "type": "string", "doc": "Same point as WKT, EPSG:4326."},
+    {"name": "h3_res9",              "type": "string"},
+    {"name": "h3_res7",              "type": "string"},
+    {"name": "geocode_match_level",  "type": "string"},
+    {"name": "geocode_confidence",   "type": "double"},
+    {"name": "event_time",           "type": {"type": "long", "logicalType": "timestamp-millis"}},
+    {"name": "source",               "type": "string"}
+  ]
+}

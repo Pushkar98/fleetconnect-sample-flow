@@ -1,0 +1,7 @@
+# Pinned, exact versions (platform standard: no floating dependencies)
+confluent-kafka[avro]==2.6.1   # Kafka client + Schema Registry + Avro serializer
+h3==4.1.2                      # Uber H3 hexagonal grid, v4 API
+psycopg[binary]==3.2.3         # PostgreSQL / PostGIS driver
+fastapi==0.115.6               # Location API
+uvicorn==0.34.0                # ASGI server for FastAPI
+httpx==0.28.1                  # HTTP client (agent tools, sign-up simulator)

@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "Dealer",
+  "namespace": "com.fleetconnect.poi",
+  "doc": "Tire dealer master data event. Topic poi.dealer.v1, key = dealer_id. Coordinates are WGS84 (EPSG:4326), longitude/latitude order.",
+  "fields": [
+    {"name": "dealer_id",           "type": "string", "doc": "Stable business id, also the Kafka message key."},
+    {"name": "name",                "type": "string"},
+    {"name": "address",             "type": "string"},
+    {"name": "city",                "type": "string"},
+    {"name": "tire_sizes",          "type": {"type": "array", "items": "string"}, "doc": "Sizes in stock, e.g. 205/55R16."},
+    {"name": "opening_hours",       "type": "string", "doc": "OpenStreetMap opening_hours syntax."},
+    {"name": "lon",                 "type": "double", "doc": "Longitude, WGS84 (EPSG:4326)."},
+    {"name": "lat",                 "type": "double", "doc": "Latitude, WGS84 (EPSG:4326)."},
+    {"name": "geometry_wkt",        "type": "string", "doc": "Same point as WKT, EPSG:4326, e.g. POINT(4.85 45.76). Lets any consumer load geometry without custom parsing."},
+    {"name": "h3_res9",             "type": "string", "doc": "H3 cell (~0.1 km2) for proximity lookups."},
+    {"name": "h3_res7",             "type": "string", "doc": "H3 cell (~5 km2) for analytics and privacy-safe aggregation."},
+    {"name": "geocode_match_level", "type": "string", "doc": "rooftop | street | city: how precisely the address was geocoded."},
+    {"name": "geocode_confidence",  "type": "double", "doc": "0..1 confidence from the geocoder."},
+    {"name": "event_time",          "type": {"type": "long", "logicalType": "timestamp-millis"}},
+    {"name": "source",              "type": "string", "doc": "Lineage: which system produced this record."}
+  ]
+}

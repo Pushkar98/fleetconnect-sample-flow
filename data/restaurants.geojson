@@ -1,0 +1,2868 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.985008,
+     45.744224
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0001",
+    "name": "Le Comptoir de Saone",
+    "cuisine": "Brasserie",
+    "recommendation_score": 4.1,
+    "price_band": "€€€",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.65
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.884852,
+     45.752874
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0002",
+    "name": "Le Bouchon de la Gare",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.7,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.962945,
+     45.745168
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0003",
+    "name": "La Cantine de Saone",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.7,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.999946,
+     45.739994
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0004",
+    "name": "Le Comptoir des Canuts",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.1,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.975281,
+     45.745822
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0005",
+    "name": "La Cantine de Saone",
+    "cuisine": "French bistro",
+    "recommendation_score": 3.3,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.070074,
+     45.728537
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0006",
+    "name": "La Table des Halles",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.7,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.964373,
+     45.742578
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0007",
+    "name": "Le Relais du Rhone",
+    "cuisine": "Seafood",
+    "recommendation_score": 4.0,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.015689,
+     45.734384
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0008",
+    "name": "Le Relais du Rhone",
+    "cuisine": "Brasserie",
+    "recommendation_score": 4.3,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.048014,
+     45.728467
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0009",
+    "name": "Le Bouchon de la Gare",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.7,
+    "price_band": "€€",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.68
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.985291,
+     45.745625
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0010",
+    "name": "Le Comptoir du Rhone",
+    "cuisine": "French bistro",
+    "recommendation_score": 4.3,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.88
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.864717,
+     45.759234
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0011",
+    "name": "Le Bouchon des Halles",
+    "cuisine": "Italian",
+    "recommendation_score": 4.8,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.897053,
+     45.754096
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0012",
+    "name": "Le Bistrot de Saone",
+    "cuisine": "Italian",
+    "recommendation_score": 3.1,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.019583,
+     45.73249
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0013",
+    "name": "La Table du Parc",
+    "cuisine": "French bistro",
+    "recommendation_score": 3.3,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.973318,
+     45.7427
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0014",
+    "name": "Le Bouchon de Saone",
+    "cuisine": "Italian",
+    "recommendation_score": 4.0,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.943434,
+     45.745992
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0015",
+    "name": "La Table du Parc",
+    "cuisine": "Italian",
+    "recommendation_score": 4.3,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.869056,
+     45.756651
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0016",
+    "name": "La Table de Saone",
+    "cuisine": "Italian",
+    "recommendation_score": 4.8,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.011817,
+     45.735895
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0017",
+    "name": "La Cantine de Saone",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.7,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.930561,
+     45.751386
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0018",
+    "name": "La Cantine de Saone",
+    "cuisine": "Lebanese",
+    "recommendation_score": 4.6,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.044539,
+     45.729257
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0019",
+    "name": "Le Relais du Parc",
+    "cuisine": "Lebanese",
+    "recommendation_score": 4.3,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.971945,
+     45.74557
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0020",
+    "name": "Le Comptoir de la Gare",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 3.3,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.830532,
+     45.809773
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0021",
+    "name": "Le Comptoir du Rhone",
+    "cuisine": "French bistro",
+    "recommendation_score": 3.0,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.834113,
+     45.768853
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0022",
+    "name": "La Cantine du Parc",
+    "cuisine": "Seafood",
+    "recommendation_score": 4.4,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.833729,
+     45.834823
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0023",
+    "name": "La Table des Halles",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 3.8,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.82219,
+     45.800359
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0024",
+    "name": "Le Bouchon du Rhone",
+    "cuisine": "Brasserie",
+    "recommendation_score": 4.2,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.830987,
+     45.79301
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0025",
+    "name": "Le Relais du Rhone",
+    "cuisine": "Italian",
+    "recommendation_score": 4.0,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.835637,
+     45.817484
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0026",
+    "name": "Le Bistrot de Saone",
+    "cuisine": "French bistro",
+    "recommendation_score": 4.5,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.82729,
+     45.801989
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0027",
+    "name": "Le Relais du Rhone",
+    "cuisine": "Brasserie",
+    "recommendation_score": 3.9,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.829309,
+     45.767484
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0028",
+    "name": "La Cantine de Saone",
+    "cuisine": "French bistro",
+    "recommendation_score": 3.5,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.827433,
+     45.76245
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0029",
+    "name": "La Table des Halles",
+    "cuisine": "Lyonnaise",
+    "recommendation_score": 4.1,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.83024,
+     45.794212
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0030",
+    "name": "La Cantine de la Gare",
+    "cuisine": "French bistro",
+    "recommendation_score": 4.0,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.833292,
+     45.775407
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0031",
+    "name": "Le Bouchon de la Gare",
+    "cuisine": "Lebanese",
+    "recommendation_score": 3.7,
+    "price_band": "€€€€",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.61
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.831137,
+     45.816046
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0032",
+    "name": "La Table du Parc",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.2,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.85
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.842021,
+     45.871262
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0033",
+    "name": "La Table du Rhone",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.0,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.836221,
+     45.796969
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0034",
+    "name": "Le Relais du Parc",
+    "cuisine": "Lebanese",
+    "recommendation_score": 3.2,
+    "price_band": "€€€€",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.831834,
+     45.877529
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0035",
+    "name": "Le Bistrot du Rhone",
+    "cuisine": "Lyonnaise",
+    "recommendation_score": 4.8,
+    "price_band": "€€€€",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.61
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.836293,
+     45.80749
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0036",
+    "name": "La Cantine des Halles",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.1,
+    "price_band": "€€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.82
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.826765,
+     45.768306
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0037",
+    "name": "Le Bouchon de Saone",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 3.6,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8323,
+     45.788489
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0038",
+    "name": "Le Comptoir des Halles",
+    "cuisine": "Brasserie",
+    "recommendation_score": 3.9,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.72
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.824374,
+     45.779937
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0039",
+    "name": "Le Comptoir du Rhone",
+    "cuisine": "Italian",
+    "recommendation_score": 4.6,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.838193,
+     45.855536
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0040",
+    "name": "Le Comptoir de Saone",
+    "cuisine": "Japanese",
+    "recommendation_score": 4.9,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.77
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.905885,
+     45.73215
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0041",
+    "name": "Le Bouchon du Parc",
+    "cuisine": "Japanese",
+    "recommendation_score": 3.2,
+    "price_band": "€",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.899188,
+     45.821003
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0042",
+    "name": "La Table des Halles",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.7,
+    "price_band": "€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.942783,
+     45.711352
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0043",
+    "name": "Le Relais du Parc",
+    "cuisine": "Italian",
+    "recommendation_score": 3.2,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.838617,
+     45.759039
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0044",
+    "name": "Le Relais du Parc",
+    "cuisine": "Brasserie",
+    "recommendation_score": 3.1,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.79
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.836699,
+     45.765275
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0045",
+    "name": "Le Comptoir des Canuts",
+    "cuisine": "Japanese",
+    "recommendation_score": 4.3,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.881957,
+     45.696067
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0046",
+    "name": "La Table de Saone",
+    "cuisine": "Japanese",
+    "recommendation_score": 4.3,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.023896,
+     45.766025
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0047",
+    "name": "Le Bouchon de la Gare",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 3.8,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.832601,
+     45.758826
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0048",
+    "name": "Le Bouchon des Canuts",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.5,
+    "price_band": "€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.76
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.807191,
+     45.70223
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0049",
+    "name": "Le Relais du Rhone",
+    "cuisine": "Japanese",
+    "recommendation_score": 4.2,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.892325,
+     45.757257
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0050",
+    "name": "Le Relais de Saone",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.8,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.768733,
+     45.787732
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0051",
+    "name": "Le Bouchon des Canuts",
+    "cuisine": "Lebanese",
+    "recommendation_score": 3.4,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.835919,
+     45.765868
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0052",
+    "name": "La Cantine des Halles",
+    "cuisine": "Italian",
+    "recommendation_score": 3.7,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.765925,
+     45.755838
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0053",
+    "name": "La Table du Rhone",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.9,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.769642,
+     45.769501
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0054",
+    "name": "La Table de Saone",
+    "cuisine": "Seafood",
+    "recommendation_score": 4.6,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.935483,
+     45.797654
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0055",
+    "name": "Le Bistrot des Halles",
+    "cuisine": "Italian",
+    "recommendation_score": 3.8,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.83112,
+     45.739702
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0056",
+    "name": "La Cantine du Rhone",
+    "cuisine": "Italian",
+    "recommendation_score": 4.2,
+    "price_band": "€€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.78
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.809166,
+     45.7521
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0057",
+    "name": "La Table de la Gare",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 3.3,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.888657,
+     45.808099
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0058",
+    "name": "La Table des Halles",
+    "cuisine": "French bistro",
+    "recommendation_score": 3.7,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.819302,
+     45.716688
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0059",
+    "name": "Le Bouchon du Parc",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.7,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.811226,
+     45.762157
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0060",
+    "name": "La Table du Parc",
+    "cuisine": "French bistro",
+    "recommendation_score": 4.6,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.867639,
+     45.789779
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0061",
+    "name": "Le Bouchon des Halles",
+    "cuisine": "French bistro",
+    "recommendation_score": 4.1,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.905274,
+     45.769359
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0062",
+    "name": "Le Relais des Halles",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.3,
+    "price_band": "€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.79
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.892154,
+     45.76962
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0063",
+    "name": "La Cantine de la Gare",
+    "cuisine": "Lebanese",
+    "recommendation_score": 3.6,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.814328,
+     45.752993
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0064",
+    "name": "Le Bouchon du Rhone",
+    "cuisine": "Lebanese",
+    "recommendation_score": 4.6,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.916701,
+     45.741274
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0065",
+    "name": "Le Bouchon du Rhone",
+    "cuisine": "Lebanese",
+    "recommendation_score": 4.6,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.907218,
+     45.734887
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0066",
+    "name": "Le Bouchon de la Gare",
+    "cuisine": "Italian",
+    "recommendation_score": 3.9,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.884077,
+     45.712945
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0067",
+    "name": "Le Relais de Saone",
+    "cuisine": "French bistro",
+    "recommendation_score": 3.2,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.880705,
+     45.827264
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0068",
+    "name": "Le Bouchon des Canuts",
+    "cuisine": "Seafood",
+    "recommendation_score": 4.9,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.944911,
+     45.70305
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0069",
+    "name": "Le Comptoir des Canuts",
+    "cuisine": "Italian",
+    "recommendation_score": 3.2,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.866962,
+     45.757795
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0070",
+    "name": "Le Bouchon du Rhone",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.4,
+    "price_band": "€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.73
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.896693,
+     45.838446
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0071",
+    "name": "Le Bouchon des Canuts",
+    "cuisine": "Seafood",
+    "recommendation_score": 4.1,
+    "price_band": "€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.71
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.911642,
+     45.737341
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0072",
+    "name": "Le Bouchon du Rhone",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.3,
+    "price_band": "€€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.82
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.945496,
+     45.676123
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0073",
+    "name": "Le Comptoir de la Gare",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.8,
+    "price_band": "€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.81
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.869623,
+     45.698041
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0074",
+    "name": "La Table des Canuts",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.1,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.790979,
+     45.781907
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0075",
+    "name": "Le Bistrot de la Gare",
+    "cuisine": "Lebanese",
+    "recommendation_score": 3.6,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.946196,
+     45.748341
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0076",
+    "name": "Le Relais du Parc",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 3.5,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.931971,
+     45.782825
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0077",
+    "name": "Le Bouchon des Canuts",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.6,
+    "price_band": "€€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.78
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.020289,
+     45.772293
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0078",
+    "name": "La Cantine des Canuts",
+    "cuisine": "Lyonnaise",
+    "recommendation_score": 3.3,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.898042,
+     45.829275
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0079",
+    "name": "Le Bistrot de la Gare",
+    "cuisine": "Brasserie",
+    "recommendation_score": 4.0,
+    "price_band": "€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.84
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.778704,
+     45.788718
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0080",
+    "name": "Le Bouchon des Canuts",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 3.7,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.803315,
+     45.70762
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0081",
+    "name": "La Cantine des Halles",
+    "cuisine": "Japanese",
+    "recommendation_score": 4.3,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.877965,
+     45.77191
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0082",
+    "name": "Le Comptoir du Parc",
+    "cuisine": "Italian",
+    "recommendation_score": 4.3,
+    "price_band": "€€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.85
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.900696,
+     45.831346
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0083",
+    "name": "Le Relais de Saone",
+    "cuisine": "Lebanese",
+    "recommendation_score": 3.8,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.84
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.950858,
+     45.770502
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0084",
+    "name": "La Cantine du Parc",
+    "cuisine": "French bistro",
+    "recommendation_score": 3.0,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.935868,
+     45.692195
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0085",
+    "name": "Le Bistrot de la Gare",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.7,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.937643,
+     45.774391
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0086",
+    "name": "La Table du Rhone",
+    "cuisine": "Seafood",
+    "recommendation_score": 4.3,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.783762,
+     45.689934
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0087",
+    "name": "Le Bouchon de Saone",
+    "cuisine": "Lyonnaise",
+    "recommendation_score": 4.2,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.887518,
+     45.831068
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0088",
+    "name": "Le Bouchon de Saone",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.0,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.964415,
+     45.76528
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0089",
+    "name": "Le Bistrot de Saone",
+    "cuisine": "Italian",
+    "recommendation_score": 4.9,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.92248,
+     45.783882
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0090",
+    "name": "Le Bistrot de la Gare",
+    "cuisine": "Lebanese",
+    "recommendation_score": 4.2,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.78
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.935334,
+     45.772102
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0091",
+    "name": "Le Comptoir du Parc",
+    "cuisine": "Japanese",
+    "recommendation_score": 4.0,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.92325,
+     45.704825
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0092",
+    "name": "Le Bistrot du Parc",
+    "cuisine": "Brasserie",
+    "recommendation_score": 3.3,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.986106,
+     45.767925
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0093",
+    "name": "Le Comptoir du Parc",
+    "cuisine": "Lebanese",
+    "recommendation_score": 3.4,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.955452,
+     45.708361
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0094",
+    "name": "Le Bouchon de Saone",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.8,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.73
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.89378,
+     45.698316
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0095",
+    "name": "Le Bistrot des Canuts",
+    "cuisine": "Japanese",
+    "recommendation_score": 3.0,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.921136,
+     45.790918
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0096",
+    "name": "Le Bouchon des Canuts",
+    "cuisine": "Lebanese",
+    "recommendation_score": 3.3,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.875088,
+     45.784108
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0097",
+    "name": "Le Relais des Halles",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 5.0,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.891013,
+     45.789922
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0098",
+    "name": "La Table des Halles",
+    "cuisine": "Italian",
+    "recommendation_score": 3.4,
+    "price_band": "€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.78
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.949589,
+     45.70301
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0099",
+    "name": "Le Relais de la Gare",
+    "cuisine": "Lyonnaise",
+    "recommendation_score": 4.2,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.919635,
+     45.776621
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0100",
+    "name": "Le Bouchon du Rhone",
+    "cuisine": "Lebanese",
+    "recommendation_score": 3.9,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.834355,
+     45.758944
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0101",
+    "name": "La Cantine de la Gare",
+    "cuisine": "Italian",
+    "recommendation_score": 3.8,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.902773,
+     45.733385
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0102",
+    "name": "La Cantine des Halles",
+    "cuisine": "Lebanese",
+    "recommendation_score": 4.7,
+    "price_band": "€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.874015,
+     45.773668
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0103",
+    "name": "Le Relais du Parc",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 3.5,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.939998,
+     45.76919
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0104",
+    "name": "Le Comptoir des Canuts",
+    "cuisine": "French bistro",
+    "recommendation_score": 4.4,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.751831,
+     45.754691
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0105",
+    "name": "Le Comptoir du Rhone",
+    "cuisine": "Italian",
+    "recommendation_score": 4.7,
+    "price_band": "€€",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.63
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.880385,
+     45.68907
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0106",
+    "name": "Le Comptoir du Rhone",
+    "cuisine": "Italian",
+    "recommendation_score": 4.3,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.903567,
+     45.758125
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0107",
+    "name": "Le Bistrot de la Gare",
+    "cuisine": "Italian",
+    "recommendation_score": 3.2,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.79138,
+     45.703215
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0108",
+    "name": "Le Relais des Halles",
+    "cuisine": "French bistro",
+    "recommendation_score": 3.3,
+    "price_band": "€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.86
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.796137,
+     45.69174
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0109",
+    "name": "La Cantine de Saone",
+    "cuisine": "Brasserie",
+    "recommendation_score": 3.4,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.984709,
+     45.756223
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0110",
+    "name": "La Table du Parc",
+    "cuisine": "Brasserie",
+    "recommendation_score": 3.2,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.85
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.926138,
+     45.742749
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0111",
+    "name": "La Cantine de Saone",
+    "cuisine": "Japanese",
+    "recommendation_score": 5.0,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.903699,
+     45.727209
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0112",
+    "name": "Le Bouchon de la Gare",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.3,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.758606,
+     45.761162
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0113",
+    "name": "Le Bouchon du Parc",
+    "cuisine": "Italian",
+    "recommendation_score": 3.1,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.875285,
+     45.776925
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0114",
+    "name": "Le Bouchon du Parc",
+    "cuisine": "Japanese",
+    "recommendation_score": 3.2,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.875597,
+     45.825303
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0115",
+    "name": "Le Bouchon de Saone",
+    "cuisine": "Lyonnaise",
+    "recommendation_score": 3.2,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.813621,
+     45.755231
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0116",
+    "name": "Le Relais de la Gare",
+    "cuisine": "Japanese",
+    "recommendation_score": 4.3,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.89
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.83838,
+     45.878124
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0117",
+    "name": "La Cantine des Canuts",
+    "cuisine": "Brasserie",
+    "recommendation_score": 4.4,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.793274,
+     45.78831
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0118",
+    "name": "Le Relais de la Gare",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.4,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.737736,
+     45.762743
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0119",
+    "name": "Le Bistrot des Canuts",
+    "cuisine": "Japanese",
+    "recommendation_score": 3.4,
+    "price_band": "€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.78
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.838523,
+     45.755126
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0120",
+    "name": "Le Comptoir de Saone",
+    "cuisine": "French bistro",
+    "recommendation_score": 4.5,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.897966,
+     45.732705
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0121",
+    "name": "Le Relais du Rhone",
+    "cuisine": "Seafood",
+    "recommendation_score": 4.7,
+    "price_band": "€€€",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.846112,
+     45.857909
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0122",
+    "name": "La Table du Rhone",
+    "cuisine": "Seafood",
+    "recommendation_score": 4.3,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.748178,
+     45.761786
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0123",
+    "name": "La Table de la Gare",
+    "cuisine": "Seafood",
+    "recommendation_score": 4.9,
+    "price_band": "€€",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.69
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.918283,
+     45.744442
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0124",
+    "name": "Le Bistrot de Saone",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.4,
+    "price_band": "€€€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.85
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.926099,
+     45.789197
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0125",
+    "name": "Le Relais des Halles",
+    "cuisine": "Italian",
+    "recommendation_score": 4.0,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.779044,
+     45.768227
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0126",
+    "name": "Le Relais du Parc",
+    "cuisine": "Lebanese",
+    "recommendation_score": 4.8,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.895313,
+     45.819729
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0127",
+    "name": "La Table de la Gare",
+    "cuisine": "Italian",
+    "recommendation_score": 5.0,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.854443,
+     45.765591
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0128",
+    "name": "Le Bistrot du Parc",
+    "cuisine": "French bistro",
+    "recommendation_score": 4.2,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.958266,
+     45.75823
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0129",
+    "name": "Le Relais de la Gare",
+    "cuisine": "Lyonnaise",
+    "recommendation_score": 4.9,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.890327,
+     45.684594
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0130",
+    "name": "Le Relais de la Gare",
+    "cuisine": "Japanese",
+    "recommendation_score": 4.2,
+    "price_band": "€€€",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.61
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.913917,
+     45.813074
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0131",
+    "name": "La Cantine de Saone",
+    "cuisine": "Japanese",
+    "recommendation_score": 4.6,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.888006,
+     45.782427
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0132",
+    "name": "La Cantine du Rhone",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.1,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.954875,
+     45.704113
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0133",
+    "name": "Le Relais des Halles",
+    "cuisine": "Lyonnaise",
+    "recommendation_score": 3.3,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.946491,
+     45.684359
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0134",
+    "name": "La Cantine des Canuts",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 3.1,
+    "price_band": "€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.76
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.958023,
+     45.693281
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0135",
+    "name": "La Cantine des Canuts",
+    "cuisine": "Seafood",
+    "recommendation_score": 3.2,
+    "price_band": "€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.73
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.754426,
+     45.755557
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0136",
+    "name": "La Cantine des Canuts",
+    "cuisine": "Brasserie",
+    "recommendation_score": 5.0,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.829952,
+     45.765129
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0137",
+    "name": "La Table du Rhone",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 3.8,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.876526,
+     45.695287
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0138",
+    "name": "Le Bistrot des Canuts",
+    "cuisine": "Brasserie",
+    "recommendation_score": 4.0,
+    "price_band": "€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.86
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.765094,
+     45.771438
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0139",
+    "name": "La Cantine des Canuts",
+    "cuisine": "Lyonnaise",
+    "recommendation_score": 4.3,
+    "price_band": "€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.73
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.924545,
+     45.761375
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0140",
+    "name": "La Cantine de Saone",
+    "cuisine": "Seafood",
+    "recommendation_score": 4.3,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.814565,
+     45.721662
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0141",
+    "name": "Le Comptoir des Halles",
+    "cuisine": "Lebanese",
+    "recommendation_score": 4.1,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.908409,
+     45.815439
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0142",
+    "name": "Le Bistrot du Rhone",
+    "cuisine": "Seafood",
+    "recommendation_score": 4.3,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.834195,
+     45.757017
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0143",
+    "name": "Le Comptoir de la Gare",
+    "cuisine": "French bistro",
+    "recommendation_score": 3.6,
+    "price_band": "€€",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.71
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.915603,
+     45.796828
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0144",
+    "name": "Le Comptoir du Parc",
+    "cuisine": "Italian",
+    "recommendation_score": 4.1,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.813764,
+     45.698354
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0145",
+    "name": "Le Bistrot de Saone",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.9,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.93821,
+     45.694539
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0146",
+    "name": "La Cantine des Canuts",
+    "cuisine": "French bistro",
+    "recommendation_score": 3.6,
+    "price_band": "€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.854434,
+     45.750833
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0147",
+    "name": "La Cantine de la Gare",
+    "cuisine": "Japanese",
+    "recommendation_score": 3.2,
+    "price_band": "€€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.975567,
+     45.753327
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0148",
+    "name": "La Cantine du Rhone",
+    "cuisine": "Lebanese",
+    "recommendation_score": 4.3,
+    "price_band": "€€",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.65
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.832881,
+     45.750406
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0149",
+    "name": "Le Relais des Halles",
+    "cuisine": "French bistro",
+    "recommendation_score": 3.6,
+    "price_band": "€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.754573,
+     45.770373
+    ]
+   },
+   "properties": {
+    "restaurant_id": "R-0150",
+    "name": "La Cantine des Halles",
+    "cuisine": "Vegetarian",
+    "recommendation_score": 4.6,
+    "price_band": "€€€",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "restaurant_id": "R-9001",
+    "name": "Bad record (no coordinates)",
+    "cuisine": "n/a",
+    "recommendation_score": 4.0,
+    "price_band": "€€",
+    "geocode_match_level": "none",
+    "geocode_confidence": 0.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "CustomerLocation",
+  "namespace": "com.fleetconnect.customer",
+  "doc": "Consent-filtered customer location. Topic customer.location.v1, key = customer_id. Precise point ONLY when consent_precise_location = true; otherwise lon/lat/geometry/h3_res9 are null and only the ~5 km2 h3_res7 area is kept.",
+  "fields": [
+    {"name": "customer_id",              "type": "string"},
+    {"name": "consent_precise_location", "type": "boolean"},
+    {"name": "lon",          "type": ["null", "double"], "default": null, "doc": "WGS84 longitude, null without consent."},
+    {"name": "lat",          "type": ["null", "double"], "default": null, "doc": "WGS84 latitude, null without consent."},
+    {"name": "geometry_wkt", "type": ["null", "string"], "default": null, "doc": "EPSG:4326 WKT, null without consent."},
+    {"name": "h3_res9",      "type": ["null", "string"], "default": null, "doc": "Fine cell, null without consent."},
+    {"name": "h3_res7",      "type": "string", "doc": "Always present: the privacy-safe area."},
+    {"name": "tire_size",    "type": ["null", "string"], "default": null},
+    {"name": "channel",      "type": "string", "doc": "web | app | call-centre"},
+    {"name": "event_time",   "type": {"type": "long", "logicalType": "timestamp-millis"}}
+  ]
+}

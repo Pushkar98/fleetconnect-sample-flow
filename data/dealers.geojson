@@ -1,0 +1,4993 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.930506,
+     45.779054
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0001",
+    "name": "Express Tyres Vaulx-en-Velin",
+    "address": "140 Avenue Jean Jaures, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.940047,
+     45.683238
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0002",
+    "name": "Rhone Tyres Saint-Priest",
+    "address": "2 Rue Victor Hugo, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.854106,
+     45.769301
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0003",
+    "name": "Express Tyres Lyon",
+    "address": "118 Avenue Jean Jaures, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.786275,
+     45.780716
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0004",
+    "name": "Atlas Tyres Ecully",
+    "address": "26 Boulevard de l'Europe, 69130 Ecully",
+    "city": "Ecully",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.831999,
+     45.77962
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0005",
+    "name": "Atlas Tyres Lyon",
+    "address": "137 Route de Vienne, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.789435,
+     45.766873
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0006",
+    "name": "Rhone Tyres Ecully",
+    "address": "103 Avenue de la Liberation, 69130 Ecully",
+    "city": "Ecully",
+    "tire_sizes": [
+     "205/55R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.810058,
+     45.760084
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0007",
+    "name": "Atlas Tyres Lyon",
+    "address": "64 Avenue de la Liberation, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.840532,
+     45.761181
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0008",
+    "name": "Central Tyres Lyon",
+    "address": "153 Avenue Jean Jaures, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.79676,
+     45.790512
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0009",
+    "name": "Rhone Tyres Ecully",
+    "address": "29 Avenue de la Liberation, 69130 Ecully",
+    "city": "Ecully",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.85
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.923194,
+     45.745296
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0010",
+    "name": "Atlas Tyres Bron",
+    "address": "40 Rue du Commerce, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "195/65R15",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.918695,
+     45.743157
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0011",
+    "name": "Atlas Tyres Bron",
+    "address": "15 Route de Vienne, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "195/65R15",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.68
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.786909,
+     45.694111
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0012",
+    "name": "Atlas Tyres Saint-Genis-Laval",
+    "address": "68 Boulevard de l'Europe, 69230 Saint-Genis-Laval",
+    "city": "Saint-Genis-Laval",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.785419,
+     45.687707
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0013",
+    "name": "Atlas Tyres Saint-Genis-Laval",
+    "address": "17 Rue du Commerce, 69230 Saint-Genis-Laval",
+    "city": "Saint-Genis-Laval",
+    "tire_sizes": [
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.962806,
+     45.696595
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0014",
+    "name": "Rapid Tyres Saint-Priest",
+    "address": "85 Avenue Jean Jaures, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.818622,
+     45.706586
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0015",
+    "name": "Central Tyres Oullins",
+    "address": "49 Avenue Jean Jaures, 69600 Oullins",
+    "city": "Oullins",
+    "tire_sizes": [
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.867021,
+     45.699793
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0016",
+    "name": "Rapid Tyres Venissieux",
+    "address": "16 Boulevard de l'Europe, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.840428,
+     45.768556
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0017",
+    "name": "Route Tyres Lyon",
+    "address": "26 Rue de la Republique, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.72
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.862165,
+     45.698963
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0018",
+    "name": "Rapid Tyres Venissieux",
+    "address": "100 Avenue de la Liberation, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.73
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.85327,
+     45.764923
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0019",
+    "name": "Rapid Tyres Lyon",
+    "address": "150 Rue des Ateliers, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.856731,
+     45.766921
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0020",
+    "name": "Route Tyres Lyon",
+    "address": "64 Rue de la Republique, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.846399,
+     45.888785
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0021",
+    "name": "Express Tyres Neuville-sur-Saone",
+    "address": "166 Avenue de la Liberation, 69250 Neuville-sur-Saone",
+    "city": "Neuville-sur-Saone",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.937607,
+     45.695834
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0022",
+    "name": "Atlas Tyres Saint-Priest",
+    "address": "95 Avenue de la Liberation, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.894814,
+     45.771452
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0023",
+    "name": "Rhone Tyres Vaulx-en-Velin",
+    "address": "30 Avenue Jean Jaures, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.828753,
+     45.755088
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0024",
+    "name": "Rapid Tyres Lyon",
+    "address": "24 Boulevard de l'Europe, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.817471,
+     45.764695
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0025",
+    "name": "Express Tyres Lyon",
+    "address": "39 Rue de la Republique, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "205/55R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.81659,
+     45.774682
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0026",
+    "name": "Rhone Tyres Lyon",
+    "address": "54 Route de Vienne, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "215/60R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.79291,
+     45.675843
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0027",
+    "name": "Atlas Tyres Saint-Genis-Laval",
+    "address": "106 Rue de la Republique, 69230 Saint-Genis-Laval",
+    "city": "Saint-Genis-Laval",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.881336,
+     45.767092
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0028",
+    "name": "Atlas Tyres Villeurbanne",
+    "address": "52 Rue des Ateliers, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.87
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.885186,
+     45.700135
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0029",
+    "name": "Route Tyres Venissieux",
+    "address": "103 Rue du Commerce, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.77
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.947334,
+     45.695758
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0030",
+    "name": "Rhone Tyres Saint-Priest",
+    "address": "112 Avenue Jean Jaures, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.916357,
+     45.725998
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0031",
+    "name": "Atlas Tyres Bron",
+    "address": "94 Boulevard de l'Europe, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "215/60R16",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.85
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.939254,
+     45.790718
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0032",
+    "name": "Rhone Tyres Vaulx-en-Velin",
+    "address": "104 Avenue de la Liberation, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "205/55R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.916242,
+     45.788047
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0033",
+    "name": "Central Tyres Vaulx-en-Velin",
+    "address": "149 Rue du Commerce, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.917267,
+     45.790125
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0034",
+    "name": "Atlas Tyres Vaulx-en-Velin",
+    "address": "173 Avenue de la Liberation, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.856921,
+     45.773545
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0035",
+    "name": "Express Tyres Villeurbanne",
+    "address": "148 Route de Vienne, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.007215,
+     45.781878
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0036",
+    "name": "Route Tyres Meyzieu",
+    "address": "64 Avenue Jean Jaures, 69330 Meyzieu",
+    "city": "Meyzieu",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.759457,
+     45.752476
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0037",
+    "name": "Express Tyres Tassin",
+    "address": "71 Rue des Ateliers, 69160 Tassin",
+    "city": "Tassin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.821969,
+     45.775239
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0038",
+    "name": "Central Tyres Lyon",
+    "address": "178 Rue Victor Hugo, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.936948,
+     45.698887
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0039",
+    "name": "Route Tyres Saint-Priest",
+    "address": "179 Rue de la Republique, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.941925,
+     45.681003
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0040",
+    "name": "Rhone Tyres Saint-Priest",
+    "address": "112 Rue des Ateliers, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.821507,
+     45.69811
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0041",
+    "name": "Central Tyres Oullins",
+    "address": "152 Rue de la Republique, 69600 Oullins",
+    "city": "Oullins",
+    "tire_sizes": [
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.65
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.962875,
+     45.77493
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0042",
+    "name": "Rhone Tyres Decines",
+    "address": "98 Avenue de la Liberation, 69150 Decines",
+    "city": "Decines",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.862377,
+     45.768816
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0043",
+    "name": "Atlas Tyres Lyon",
+    "address": "52 Rue de la Republique, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "205/55R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.94772,
+     45.708762
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0044",
+    "name": "Route Tyres Saint-Priest",
+    "address": "30 Rue Victor Hugo, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.73
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.88496,
+     45.693741
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0045",
+    "name": "Rapid Tyres Venissieux",
+    "address": "179 Avenue de la Liberation, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.941606,
+     45.693303
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0046",
+    "name": "Central Tyres Saint-Priest",
+    "address": "126 Avenue Jean Jaures, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.939129,
+     45.770984
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0047",
+    "name": "Route Tyres Vaulx-en-Velin",
+    "address": "69 Rue du Commerce, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.790865,
+     45.708698
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0048",
+    "name": "Rhone Tyres Oullins",
+    "address": "47 Rue des Ateliers, 69600 Oullins",
+    "city": "Oullins",
+    "tire_sizes": [
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.757086,
+     45.75556
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0049",
+    "name": "Rapid Tyres Tassin",
+    "address": "62 Boulevard de l'Europe, 69160 Tassin",
+    "city": "Tassin",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.010083,
+     45.770282
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0050",
+    "name": "Route Tyres Meyzieu",
+    "address": "95 Rue des Ateliers, 69330 Meyzieu",
+    "city": "Meyzieu",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.879946,
+     45.77526
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0051",
+    "name": "Route Tyres Villeurbanne",
+    "address": "177 Rue Victor Hugo, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.797991,
+     45.688887
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0052",
+    "name": "Express Tyres Saint-Genis-Laval",
+    "address": "137 Rue Victor Hugo, 69230 Saint-Genis-Laval",
+    "city": "Saint-Genis-Laval",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.921098,
+     45.774092
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0053",
+    "name": "Central Tyres Vaulx-en-Velin",
+    "address": "113 Rue du Commerce, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.894179,
+     45.821925
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0054",
+    "name": "Atlas Tyres Rillieux-la-Pape",
+    "address": "145 Avenue de la Liberation, 69140 Rillieux-la-Pape",
+    "city": "Rillieux-la-Pape",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.923173,
+     45.772188
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0055",
+    "name": "Central Tyres Vaulx-en-Velin",
+    "address": "77 Boulevard de l'Europe, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.843166,
+     45.881581
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0056",
+    "name": "Atlas Tyres Neuville-sur-Saone",
+    "address": "142 Avenue Jean Jaures, 69250 Neuville-sur-Saone",
+    "city": "Neuville-sur-Saone",
+    "tire_sizes": [
+     "195/65R15",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.882183,
+     45.784072
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0057",
+    "name": "Express Tyres Villeurbanne",
+    "address": "60 Avenue de la Liberation, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.79
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.762139,
+     45.759134
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0058",
+    "name": "Express Tyres Tassin",
+    "address": "146 Avenue de la Liberation, 69160 Tassin",
+    "city": "Tassin",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.905089,
+     45.738134
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0059",
+    "name": "Rhone Tyres Bron",
+    "address": "155 Avenue de la Liberation, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.788538,
+     45.689121
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0060",
+    "name": "Central Tyres Saint-Genis-Laval",
+    "address": "133 Rue des Ateliers, 69230 Saint-Genis-Laval",
+    "city": "Saint-Genis-Laval",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.780923,
+     45.696612
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0061",
+    "name": "Atlas Tyres Saint-Genis-Laval",
+    "address": "85 Boulevard de l'Europe, 69230 Saint-Genis-Laval",
+    "city": "Saint-Genis-Laval",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.895411,
+     45.780622
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0062",
+    "name": "Rapid Tyres Villeurbanne",
+    "address": "169 Rue des Ateliers, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.86
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.811358,
+     45.724156
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0063",
+    "name": "Express Tyres Oullins",
+    "address": "125 Avenue Jean Jaures, 69600 Oullins",
+    "city": "Oullins",
+    "tire_sizes": [
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.79
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.777258,
+     45.780294
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0064",
+    "name": "Rapid Tyres Ecully",
+    "address": "119 Avenue Jean Jaures, 69130 Ecully",
+    "city": "Ecully",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.906901,
+     45.819223
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0065",
+    "name": "Route Tyres Rillieux-la-Pape",
+    "address": "131 Rue Victor Hugo, 69140 Rillieux-la-Pape",
+    "city": "Rillieux-la-Pape",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.818783,
+     45.875243
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0066",
+    "name": "Route Tyres Neuville-sur-Saone",
+    "address": "149 Rue des Ateliers, 69250 Neuville-sur-Saone",
+    "city": "Neuville-sur-Saone",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.880944,
+     45.762852
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0067",
+    "name": "Express Tyres Villeurbanne",
+    "address": "62 Boulevard de l'Europe, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.87
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.782461,
+     45.771312
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0068",
+    "name": "Atlas Tyres Ecully",
+    "address": "127 Rue de la Republique, 69130 Ecully",
+    "city": "Ecully",
+    "tire_sizes": [
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.945357,
+     45.77276
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0069",
+    "name": "Central Tyres Decines",
+    "address": "168 Rue Victor Hugo, 69150 Decines",
+    "city": "Decines",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.917073,
+     45.780064
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0070",
+    "name": "Route Tyres Vaulx-en-Velin",
+    "address": "98 Rue du Commerce, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.802,
+     45.715541
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0071",
+    "name": "Central Tyres Oullins",
+    "address": "43 Avenue de la Liberation, 69600 Oullins",
+    "city": "Oullins",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.875245,
+     45.774335
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0072",
+    "name": "Atlas Tyres Villeurbanne",
+    "address": "44 Rue Victor Hugo, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.902441,
+     45.734953
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0073",
+    "name": "Express Tyres Bron",
+    "address": "3 Rue des Ateliers, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.851088,
+     45.875451
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0074",
+    "name": "Central Tyres Neuville-sur-Saone",
+    "address": "78 Route de Vienne, 69250 Neuville-sur-Saone",
+    "city": "Neuville-sur-Saone",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.67
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.783707,
+     45.71727
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0075",
+    "name": "Route Tyres Saint-Genis-Laval",
+    "address": "176 Rue de la Republique, 69230 Saint-Genis-Laval",
+    "city": "Saint-Genis-Laval",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.917802,
+     45.76588
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0076",
+    "name": "Express Tyres Vaulx-en-Velin",
+    "address": "166 Rue de la Republique, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.83
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.829432,
+     45.77338
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0077",
+    "name": "Route Tyres Lyon",
+    "address": "94 Avenue de la Liberation, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.893345,
+     45.820657
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0078",
+    "name": "Express Tyres Rillieux-la-Pape",
+    "address": "173 Boulevard de l'Europe, 69140 Rillieux-la-Pape",
+    "city": "Rillieux-la-Pape",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.75
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.901645,
+     45.726898
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0079",
+    "name": "Rhone Tyres Bron",
+    "address": "28 Route de Vienne, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.902819,
+     45.780906
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0080",
+    "name": "Rapid Tyres Vaulx-en-Velin",
+    "address": "10 Avenue de la Liberation, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.900521,
+     45.725843
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0081",
+    "name": "Express Tyres Bron",
+    "address": "40 Boulevard de l'Europe, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.78
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.837587,
+     45.888637
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0082",
+    "name": "Atlas Tyres Neuville-sur-Saone",
+    "address": "93 Avenue Jean Jaures, 69250 Neuville-sur-Saone",
+    "city": "Neuville-sur-Saone",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.851763,
+     45.771322
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0083",
+    "name": "Express Tyres Lyon",
+    "address": "164 Rue de la Republique, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.009273,
+     45.782186
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0084",
+    "name": "Atlas Tyres Meyzieu",
+    "address": "85 Rue Victor Hugo, 69330 Meyzieu",
+    "city": "Meyzieu",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.945738,
+     45.692133
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0085",
+    "name": "Rhone Tyres Saint-Priest",
+    "address": "61 Rue du Commerce, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.73
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.829818,
+     45.761966
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0086",
+    "name": "Rhone Tyres Lyon",
+    "address": "132 Avenue Jean Jaures, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.963642,
+     45.783918
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0087",
+    "name": "Rapid Tyres Vaulx-en-Velin",
+    "address": "126 Rue des Ateliers, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.79
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.83234,
+     45.771748
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0088",
+    "name": "Route Tyres Lyon",
+    "address": "136 Avenue de la Liberation, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.895461,
+     45.691386
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0089",
+    "name": "Express Tyres Venissieux",
+    "address": "25 Rue du Commerce, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.78
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.845969,
+     45.764565
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0090",
+    "name": "Atlas Tyres Lyon",
+    "address": "143 Rue de la Republique, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.77
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.953296,
+     45.747284
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0091",
+    "name": "Route Tyres Decines",
+    "address": "130 Route de Vienne, 69150 Decines",
+    "city": "Decines",
+    "tire_sizes": [
+     "205/55R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.874438,
+     45.769563
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0092",
+    "name": "Central Tyres Villeurbanne",
+    "address": "144 Rue de la Republique, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.836498,
+     45.88028
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0093",
+    "name": "Rapid Tyres Neuville-sur-Saone",
+    "address": "37 Rue de la Republique, 69250 Neuville-sur-Saone",
+    "city": "Neuville-sur-Saone",
+    "tire_sizes": [
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.879272,
+     45.698412
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0094",
+    "name": "Route Tyres Venissieux",
+    "address": "153 Avenue Jean Jaures, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "205/55R16",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.918553,
+     45.790252
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0095",
+    "name": "Rhone Tyres Vaulx-en-Velin",
+    "address": "56 Avenue Jean Jaures, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.94096,
+     45.701534
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0096",
+    "name": "Atlas Tyres Saint-Priest",
+    "address": "78 Route de Vienne, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.61
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.83486,
+     45.754779
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0097",
+    "name": "Route Tyres Lyon",
+    "address": "144 Rue du Commerce, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.856016,
+     45.752052
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0098",
+    "name": "Express Tyres Lyon",
+    "address": "164 Boulevard de l'Europe, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.881295,
+     45.809276
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0099",
+    "name": "Rapid Tyres Rillieux-la-Pape",
+    "address": "63 Boulevard de l'Europe, 69140 Rillieux-la-Pape",
+    "city": "Rillieux-la-Pape",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.72
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.887057,
+     45.779741
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0100",
+    "name": "Rhone Tyres Villeurbanne",
+    "address": "90 Rue Victor Hugo, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.846604,
+     45.771615
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0101",
+    "name": "Express Tyres Lyon",
+    "address": "127 Rue des Ateliers, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.869369,
+     45.699303
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0102",
+    "name": "Rhone Tyres Venissieux",
+    "address": "130 Avenue Jean Jaures, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.82
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.919248,
+     45.827783
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0103",
+    "name": "Route Tyres Rillieux-la-Pape",
+    "address": "99 Rue des Ateliers, 69140 Rillieux-la-Pape",
+    "city": "Rillieux-la-Pape",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.82
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.873218,
+     45.771733
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0104",
+    "name": "Rhone Tyres Villeurbanne",
+    "address": "22 Rue Victor Hugo, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "205/55R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.935196,
+     45.690914
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0105",
+    "name": "Rhone Tyres Saint-Priest",
+    "address": "174 Rue de la Republique, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.78
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.877118,
+     45.758886
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0106",
+    "name": "Rhone Tyres Villeurbanne",
+    "address": "21 Rue Victor Hugo, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.87
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.864813,
+     45.781409
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0107",
+    "name": "Express Tyres Villeurbanne",
+    "address": "176 Avenue Jean Jaures, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.83
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.829851,
+     45.888007
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0108",
+    "name": "Atlas Tyres Neuville-sur-Saone",
+    "address": "20 Avenue de la Liberation, 69250 Neuville-sur-Saone",
+    "city": "Neuville-sur-Saone",
+    "tire_sizes": [
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.932875,
+     45.769832
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0109",
+    "name": "Atlas Tyres Vaulx-en-Velin",
+    "address": "178 Rue Victor Hugo, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.921316,
+     45.7633
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0110",
+    "name": "Central Tyres Vaulx-en-Velin",
+    "address": "50 Rue du Commerce, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.900073,
+     45.815651
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0111",
+    "name": "Rhone Tyres Rillieux-la-Pape",
+    "address": "142 Avenue Jean Jaures, 69140 Rillieux-la-Pape",
+    "city": "Rillieux-la-Pape",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.885611,
+     45.768342
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0112",
+    "name": "Atlas Tyres Villeurbanne",
+    "address": "116 Rue du Commerce, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.913456,
+     45.765001
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0113",
+    "name": "Rapid Tyres Bron",
+    "address": "167 Rue du Commerce, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.79007,
+     45.789057
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0114",
+    "name": "Rapid Tyres Ecully",
+    "address": "5 Avenue de la Liberation, 69130 Ecully",
+    "city": "Ecully",
+    "tire_sizes": [
+     "205/55R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.003475,
+     45.771269
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0115",
+    "name": "Route Tyres Meyzieu",
+    "address": "118 Avenue Jean Jaures, 69330 Meyzieu",
+    "city": "Meyzieu",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.903977,
+     45.771924
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0116",
+    "name": "Rhone Tyres Vaulx-en-Velin",
+    "address": "62 Boulevard de l'Europe, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.820718,
+     45.871964
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0117",
+    "name": "Central Tyres Neuville-sur-Saone",
+    "address": "12 Boulevard de l'Europe, 69250 Neuville-sur-Saone",
+    "city": "Neuville-sur-Saone",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.876906,
+     45.767721
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0118",
+    "name": "Atlas Tyres Villeurbanne",
+    "address": "12 Rue du Commerce, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.922633,
+     45.775191
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0119",
+    "name": "Rhone Tyres Vaulx-en-Velin",
+    "address": "52 Rue de la Republique, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.79
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.784161,
+     45.693285
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0120",
+    "name": "Rhone Tyres Saint-Genis-Laval",
+    "address": "13 Rue du Commerce, 69230 Saint-Genis-Laval",
+    "city": "Saint-Genis-Laval",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.74
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.735496,
+     45.77681
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0121",
+    "name": "Route Tyres Tassin",
+    "address": "69 Avenue Jean Jaures, 69160 Tassin",
+    "city": "Tassin",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.830275,
+     45.766206
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0122",
+    "name": "Atlas Tyres Lyon",
+    "address": "177 Rue des Ateliers, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.908942,
+     45.768444
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0123",
+    "name": "Rhone Tyres Villeurbanne",
+    "address": "132 Rue Victor Hugo, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "205/55R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.854004,
+     45.76598
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0124",
+    "name": "Route Tyres Lyon",
+    "address": "9 Rue Victor Hugo, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.880634,
+     45.69186
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0125",
+    "name": "Central Tyres Venissieux",
+    "address": "133 Boulevard de l'Europe, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "215/60R16",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.820911,
+     45.751643
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0126",
+    "name": "Atlas Tyres Lyon",
+    "address": "19 Rue des Ateliers, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.62
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.917186,
+     45.767726
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0127",
+    "name": "Atlas Tyres Vaulx-en-Velin",
+    "address": "180 Rue Victor Hugo, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.823653,
+     45.760298
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0128",
+    "name": "Route Tyres Lyon",
+    "address": "34 Avenue Jean Jaures, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.946684,
+     45.680472
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0129",
+    "name": "Express Tyres Saint-Priest",
+    "address": "19 Rue des Ateliers, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.889431,
+     45.695491
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0130",
+    "name": "Atlas Tyres Venissieux",
+    "address": "42 Rue du Commerce, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.869964,
+     45.763025
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0131",
+    "name": "Route Tyres Villeurbanne",
+    "address": "24 Rue Victor Hugo, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.901603,
+     45.820454
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0132",
+    "name": "Express Tyres Rillieux-la-Pape",
+    "address": "54 Boulevard de l'Europe, 69140 Rillieux-la-Pape",
+    "city": "Rillieux-la-Pape",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.918108,
+     45.783962
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0133",
+    "name": "Central Tyres Vaulx-en-Velin",
+    "address": "19 Rue de la Republique, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.78
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.826857,
+     45.755483
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0134",
+    "name": "Rhone Tyres Lyon",
+    "address": "103 Rue Victor Hugo, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.85
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.909008,
+     45.744303
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0135",
+    "name": "Central Tyres Bron",
+    "address": "158 Boulevard de l'Europe, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.98857,
+     45.76711
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0136",
+    "name": "Rapid Tyres Meyzieu",
+    "address": "24 Boulevard de l'Europe, 69330 Meyzieu",
+    "city": "Meyzieu",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.922924,
+     45.729752
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0137",
+    "name": "Rapid Tyres Bron",
+    "address": "111 Rue Victor Hugo, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.878861,
+     45.694638
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0138",
+    "name": "Route Tyres Venissieux",
+    "address": "116 Avenue de la Liberation, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.901278,
+     45.69611
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0139",
+    "name": "Route Tyres Venissieux",
+    "address": "131 Boulevard de l'Europe, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.782831,
+     45.769411
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0140",
+    "name": "Atlas Tyres Ecully",
+    "address": "84 Rue du Commerce, 69130 Ecully",
+    "city": "Ecully",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.896103,
+     45.737406
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0141",
+    "name": "Rapid Tyres Bron",
+    "address": "95 Rue du Commerce, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.000172,
+     45.754332
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0142",
+    "name": "Express Tyres Meyzieu",
+    "address": "149 Route de Vienne, 69330 Meyzieu",
+    "city": "Meyzieu",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.94027,
+     45.681737
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0143",
+    "name": "Atlas Tyres Saint-Priest",
+    "address": "9 Avenue Jean Jaures, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.830495,
+     45.751962
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0144",
+    "name": "Express Tyres Lyon",
+    "address": "16 Rue Victor Hugo, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.88
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.892283,
+     45.787409
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0145",
+    "name": "Express Tyres Villeurbanne",
+    "address": "175 Avenue de la Liberation, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.861481,
+     45.874395
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0146",
+    "name": "Central Tyres Neuville-sur-Saone",
+    "address": "82 Rue des Ateliers, 69250 Neuville-sur-Saone",
+    "city": "Neuville-sur-Saone",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.84
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.751295,
+     45.766755
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0147",
+    "name": "Rapid Tyres Tassin",
+    "address": "74 Avenue Jean Jaures, 69160 Tassin",
+    "city": "Tassin",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.73
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.895959,
+     45.830699
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0148",
+    "name": "Express Tyres Rillieux-la-Pape",
+    "address": "151 Route de Vienne, 69140 Rillieux-la-Pape",
+    "city": "Rillieux-la-Pape",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.818685,
+     45.76692
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0149",
+    "name": "Rapid Tyres Lyon",
+    "address": "141 Rue Victor Hugo, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.864053,
+     45.75644
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0150",
+    "name": "Route Tyres Villeurbanne",
+    "address": "10 Rue Victor Hugo, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.97452,
+     45.769633
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0151",
+    "name": "Rhone Tyres Decines",
+    "address": "117 Rue des Ateliers, 69150 Decines",
+    "city": "Decines",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.888557,
+     45.831902
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0152",
+    "name": "Rapid Tyres Rillieux-la-Pape",
+    "address": "87 Avenue de la Liberation, 69140 Rillieux-la-Pape",
+    "city": "Rillieux-la-Pape",
+    "tire_sizes": [
+     "205/55R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.925265,
+     45.744478
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0153",
+    "name": "Rhone Tyres Bron",
+    "address": "64 Rue de la Republique, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "205/55R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.879691,
+     45.769744
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0154",
+    "name": "Rapid Tyres Villeurbanne",
+    "address": "171 Avenue Jean Jaures, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.931697,
+     45.77507
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0155",
+    "name": "Central Tyres Vaulx-en-Velin",
+    "address": "40 Rue des Ateliers, 69120 Vaulx-en-Velin",
+    "city": "Vaulx-en-Velin",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 1.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.996154,
+     45.756759
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0156",
+    "name": "Route Tyres Meyzieu",
+    "address": "93 Avenue Jean Jaures, 69330 Meyzieu",
+    "city": "Meyzieu",
+    "tire_sizes": [
+     "195/65R15",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.81
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.950298,
+     45.702056
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0157",
+    "name": "Atlas Tyres Saint-Priest",
+    "address": "150 Rue des Ateliers, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.896788,
+     45.737228
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0158",
+    "name": "Rhone Tyres Bron",
+    "address": "6 Boulevard de l'Europe, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.915418,
+     45.7815
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0159",
+    "name": "Central Tyres Villeurbanne",
+    "address": "9 Avenue de la Liberation, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.71
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.968705,
+     45.764492
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0160",
+    "name": "Route Tyres Decines",
+    "address": "35 Rue du Commerce, 69150 Decines",
+    "city": "Decines",
+    "tire_sizes": [
+     "205/55R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.942819,
+     45.690095
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0161",
+    "name": "Rhone Tyres Saint-Priest",
+    "address": "119 Boulevard de l'Europe, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.84947,
+     45.749897
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0162",
+    "name": "Route Tyres Lyon",
+    "address": "5 Route de Vienne, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.942903,
+     45.69346
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0163",
+    "name": "Atlas Tyres Saint-Priest",
+    "address": "139 Route de Vienne, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "205/55R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.78
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.848602,
+     45.754481
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0164",
+    "name": "Rhone Tyres Lyon",
+    "address": "61 Avenue de la Liberation, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "205/55R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.907112,
+     45.778646
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0165",
+    "name": "Express Tyres Villeurbanne",
+    "address": "174 Boulevard de l'Europe, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.88
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.883641,
+     45.702094
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0166",
+    "name": "Atlas Tyres Venissieux",
+    "address": "77 Rue Victor Hugo, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.885003,
+     45.7826
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0167",
+    "name": "Rapid Tyres Villeurbanne",
+    "address": "138 Route de Vienne, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.87
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.966699,
+     45.782166
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0168",
+    "name": "Central Tyres Decines",
+    "address": "54 Rue du Commerce, 69150 Decines",
+    "city": "Decines",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.81
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.807724,
+     45.69538
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0169",
+    "name": "Central Tyres Oullins",
+    "address": "62 Rue du Commerce, 69600 Oullins",
+    "city": "Oullins",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.88996,
+     45.764681
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0170",
+    "name": "Rhone Tyres Villeurbanne",
+    "address": "53 Rue du Commerce, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.84
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.819989,
+     45.756343
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0171",
+    "name": "Atlas Tyres Lyon",
+    "address": "85 Route de Vienne, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.76
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.983806,
+     45.767962
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0172",
+    "name": "Express Tyres Meyzieu",
+    "address": "91 Rue Victor Hugo, 69330 Meyzieu",
+    "city": "Meyzieu",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.79
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.743404,
+     45.75885
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0173",
+    "name": "Rapid Tyres Tassin",
+    "address": "172 Rue de la Republique, 69160 Tassin",
+    "city": "Tassin",
+    "tire_sizes": [
+     "205/55R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.839911,
+     45.764797
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0174",
+    "name": "Express Tyres Lyon",
+    "address": "171 Rue des Ateliers, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.940761,
+     45.705659
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0175",
+    "name": "Atlas Tyres Saint-Priest",
+    "address": "28 Avenue Jean Jaures, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.870753,
+     45.775898
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0176",
+    "name": "Express Tyres Villeurbanne",
+    "address": "58 Avenue de la Liberation, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.876222,
+     45.70366
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0177",
+    "name": "Rapid Tyres Venissieux",
+    "address": "128 Boulevard de l'Europe, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.754494,
+     45.751841
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0178",
+    "name": "Express Tyres Tassin",
+    "address": "72 Rue de la Republique, 69160 Tassin",
+    "city": "Tassin",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.99
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.804192,
+     45.705764
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0179",
+    "name": "Atlas Tyres Oullins",
+    "address": "146 Boulevard de l'Europe, 69600 Oullins",
+    "city": "Oullins",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.813846,
+     45.766179
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0180",
+    "name": "Route Tyres Lyon",
+    "address": "102 Rue du Commerce, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "215/60R16",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.892379,
+     45.753735
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0181",
+    "name": "Express Tyres Bron",
+    "address": "98 Avenue Jean Jaures, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.887468,
+     45.692247
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0182",
+    "name": "Rapid Tyres Venissieux",
+    "address": "2 Avenue de la Liberation, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.872529,
+     45.693472
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0183",
+    "name": "Route Tyres Venissieux",
+    "address": "24 Rue du Commerce, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.949687,
+     45.703196
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0184",
+    "name": "Central Tyres Saint-Priest",
+    "address": "38 Avenue Jean Jaures, 69800 Saint-Priest",
+    "city": "Saint-Priest",
+    "tire_sizes": [
+     "215/60R16",
+     "225/45R17",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.93
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.918091,
+     45.740973
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0185",
+    "name": "Route Tyres Bron",
+    "address": "158 Route de Vienne, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.96
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.941595,
+     45.780457
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0186",
+    "name": "Express Tyres Decines",
+    "address": "153 Rue Victor Hugo, 69150 Decines",
+    "city": "Decines",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.826557,
+     45.764395
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0187",
+    "name": "Route Tyres Lyon",
+    "address": "63 Rue du Commerce, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.83
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.749783,
+     45.772569
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0188",
+    "name": "Central Tyres Ecully",
+    "address": "75 Avenue Jean Jaures, 69130 Ecully",
+    "city": "Ecully",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.97
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.887131,
+     45.778261
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0189",
+    "name": "Route Tyres Villeurbanne",
+    "address": "123 Boulevard de l'Europe, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.996836,
+     45.760422
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0190",
+    "name": "Express Tyres Meyzieu",
+    "address": "174 Boulevard de l'Europe, 69330 Meyzieu",
+    "city": "Meyzieu",
+    "tire_sizes": [
+     "195/65R15",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.834697,
+     45.749268
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0191",
+    "name": "Rhone Tyres Lyon",
+    "address": "101 Rue des Ateliers, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "195/65R15",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.92
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.884464,
+     45.769296
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0192",
+    "name": "Rhone Tyres Villeurbanne",
+    "address": "80 Rue du Commerce, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "street",
+    "geocode_confidence": 0.85
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.882547,
+     45.690046
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0193",
+    "name": "Rapid Tyres Venissieux",
+    "address": "6 Rue du Commerce, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "205/55R16",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.98
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.899808,
+     45.735587
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0194",
+    "name": "Central Tyres Bron",
+    "address": "162 Rue Victor Hugo, 69500 Bron",
+    "city": "Bron",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.816732,
+     45.707848
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0195",
+    "name": "Atlas Tyres Oullins",
+    "address": "53 Avenue de la Liberation, 69600 Oullins",
+    "city": "Oullins",
+    "tire_sizes": [
+     "195/65R15",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.887927,
+     45.700906
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0196",
+    "name": "Express Tyres Venissieux",
+    "address": "81 Boulevard de l'Europe, 69200 Venissieux",
+    "city": "Venissieux",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.895247,
+     45.81321
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0197",
+    "name": "Atlas Tyres Rillieux-la-Pape",
+    "address": "81 Avenue Jean Jaures, 69140 Rillieux-la-Pape",
+    "city": "Rillieux-la-Pape",
+    "tire_sizes": [
+     "195/65R15",
+     "205/55R16",
+     "215/60R16"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.91
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.765539,
+     45.778406
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0198",
+    "name": "Atlas Tyres Ecully",
+    "address": "125 Rue Victor Hugo, 69130 Ecully",
+    "city": "Ecully",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.94
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.876204,
+     45.771845
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0199",
+    "name": "Atlas Tyres Villeurbanne",
+    "address": "50 Boulevard de l'Europe, 69100 Villeurbanne",
+    "city": "Villeurbanne",
+    "tire_sizes": [
+     "205/55R16",
+     "215/60R16",
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.815388,
+     45.754018
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-0200",
+    "name": "Atlas Tyres Lyon",
+    "address": "138 Avenue de la Liberation, 69002 Lyon",
+    "city": "Lyon",
+    "tire_sizes": [
+     "225/45R17",
+     "235/55R18",
+     "315/80R22.5"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     45.7605,
+     4.859
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-9001",
+    "name": "Bad record (lon/lat swapped by the source system)",
+    "address": "n/a",
+    "city": "n/a",
+    "tire_sizes": [
+     "205/55R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3522,
+     48.8566
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-9002",
+    "name": "Bad record (valid point, but in Paris: outside our region)",
+    "address": "n/a",
+    "city": "n/a",
+    "tire_sizes": [
+     "205/55R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.86,
+     45.75
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-9003",
+    "name": "Bad record (geocoder only matched the city: confidence 0.30)",
+    "address": "n/a",
+    "city": "n/a",
+    "tire_sizes": [
+     "205/55R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "geocode_match_level": "city",
+    "geocode_confidence": 0.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.86,
+     95.0
+    ]
+   },
+   "properties": {
+    "dealer_id": "D-9004",
+    "name": "Bad record (latitude 95 does not exist)",
+    "address": "n/a",
+    "city": "n/a",
+    "tire_sizes": [
+     "205/55R16"
+    ],
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "geocode_match_level": "rooftop",
+    "geocode_confidence": 0.95
+   }
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "FcConsentFlow001",
+    "name": "FleetConnect - customer consent",
+    "active": false,
+    "settings": {
+      "executionOrder": "v1"
+    },
+    "pinData": {},
+    "nodes": [
+      {
+        "id": "8a1f8c0e-1111-4c3e-9a0a-000000000001",
+        "name": "Customer sign-up",
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 2,
+        "position": [
+          200,
+          300
+        ],
+        "webhookId": "6f1e2a7c-1111-4c3e-9a0a-00000000aa01",
+        "parameters": {
+          "httpMethod": "POST",
+          "path": "customer-signup",
+          "responseMode": "lastNode",
+          "options": {}
+        }
+      },
+      {
+        "id": "8a1f8c0e-1111-4c3e-9a0a-000000000002",
+        "name": "Consent to precise location?",
+        "type": "n8n-nodes-base.if",
+        "typeVersion": 2,
+        "position": [
+          440,
+          300
+        ],
+        "parameters": {
+          "conditions": {
+            "options": {
+              "caseSensitive": true,
+              "leftValue": "",
+              "typeValidation": "strict"
+            },
+            "conditions": [
+              {
+                "id": "c0a1b2c3-1111-4c3e-9a0a-000000000010",
+                "leftValue": "={{ $json.body.consent_precise_location }}",
+                "rightValue": "",
+                "operator": {
+                  "type": "boolean",
+                  "operation": "true",
+                  "singleValue": true
+                }
+              }
+            ],
+            "combinator": "and"
+          },
+          "options": {}
+        }
+      },
+      {
+        "id": "8a1f8c0e-1111-4c3e-9a0a-000000000003",
+        "name": "Publish precise point",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          720,
+          180
+        ],
+        "parameters": {
+          "method": "POST",
+          "url": "http://api:8000/ingest/customer-location",
+          "sendBody": true,
+          "specifyBody": "json",
+          "jsonBody": "={{ JSON.stringify({ customer_id: $json.body.customer_id, consent_precise_location: true, lon: $json.body.lon, lat: $json.body.lat, tire_size: $json.body.tire_size, channel: $json.body.channel }) }}",
+          "options": {}
+        }
+      },
+      {
+        "id": "8a1f8c0e-1111-4c3e-9a0a-000000000004",
+        "name": "Coarsen to H3 res7 area",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          720,
+          420
+        ],
+        "parameters": {
+          "method": "GET",
+          "url": "=http://api:8000/h3/cell?lon={{ $json.body.lon }}&lat={{ $json.body.lat }}&res=7",
+          "options": {}
+        }
+      },
+      {
+        "id": "8a1f8c0e-1111-4c3e-9a0a-000000000005",
+        "name": "Publish area only (no coordinates)",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          980,
+          420
+        ],
+        "parameters": {
+          "method": "POST",
+          "url": "http://api:8000/ingest/customer-location",
+          "sendBody": true,
+          "specifyBody": "json",
+          "jsonBody": "={{ JSON.stringify({ customer_id: $('Customer sign-up').item.json.body.customer_id, consent_precise_location: false, h3_res7: $json.cell, tire_size: $('Customer sign-up').item.json.body.tire_size, channel: $('Customer sign-up').item.json.body.channel }) }}",
+          "options": {}
+        }
+      }
+    ],
+    "connections": {
+      "Customer sign-up": {
+        "main": [
+          [
+            {
+              "node": "Consent to precise location?",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Consent to precise location?": {
+        "main": [
+          [
+            {
+              "node": "Publish precise point",
+              "type": "main",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "node": "Coarsen to H3 res7 area",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Coarsen to H3 res7 area": {
+        "main": [
+          [
+            {
+              "node": "Publish area only (no coordinates)",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,412 @@
+<!doctype html>
+<!--
+  FleetConnect web map — the "web channel" + a demo control panel.
+  It only talks to the API (same origin, served by FastAPI); it never sees Kafka or PostGIS.
+    Explore tab          -> Location API endpoints (api/main.py)
+    Produce & test tab   -> demo control endpoints  (api/control.py)
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FleetConnect Map</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<style>
+  :root { --bg:#fff; --fg:#1d2433; --muted:#667085; --line:#e4e7ec; --soft:#f5f7fa;
+          --dealer:#2563eb; --rest:#ea580c; --route:#111827; --hex:#7c3aed; --me:#16a34a; --bad:#dc2626; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:13px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--fg); background:var(--bg);
+         display:grid; grid-template-columns: 400px 1fr; height:100vh; }
+  aside { overflow:auto; border-right:1px solid var(--line); padding:16px; display:flex; flex-direction:column; gap:14px; }
+  h1 { font-size:17px; margin:0; } h1 small { display:block; font-weight:400; color:var(--muted); font-size:12px; margin-top:2px; }
+  .tabs { display:flex; gap:4px; background:var(--soft); padding:3px; border-radius:8px; }
+  .tabs button { flex:1; background:transparent; color:var(--muted); border:0; }
+  .tabs button.active { background:#fff; color:var(--fg); box-shadow:0 1px 2px rgba(0,0,0,.08); }
+  .pane { display:flex; flex-direction:column; gap:14px; } .pane[hidden] { display:none; }
+  section { border:1px solid var(--line); border-radius:8px; padding:12px; display:flex; flex-direction:column; gap:8px; }
+  h2 { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin:0; display:flex; justify-content:space-between; gap:8px; }
+  h2 code { text-transform:none; letter-spacing:0; font-weight:400; }
+  label { display:flex; align-items:center; gap:8px; }
+  select, input[type=text], input[type=number], button { font:inherit; padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--fg); }
+  button { background:var(--fg); color:#fff; border-color:var(--fg); cursor:pointer; }
+  button.ghost { background:#fff; color:var(--fg); border-color:var(--line); }
+  button:disabled { opacity:.5; cursor:wait; }
+  .row { display:flex; gap:6px; align-items:center; } .row > * { flex:1; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
+  .dot { width:10px; height:10px; border-radius:50%; display:inline-block; flex:none; }
+  .hint { color:var(--muted); font-size:12px; }
+  code { font:11px ui-monospace, Menlo, monospace; background:var(--soft); padding:1px 4px; border-radius:4px; }
+  pre { margin:0; font:11px/1.4 ui-monospace, Menlo, monospace; background:#0f172a; color:#e2e8f0; padding:8px; border-radius:6px;
+        max-height:260px; overflow:auto; white-space:pre-wrap; word-break:break-word; }
+  ol.results { margin:0; padding-left:18px; display:flex; flex-direction:column; gap:4px; }
+  .trace { display:flex; flex-direction:column; gap:6px; }
+  .step { border-left:3px solid var(--line); padding:4px 8px; background:var(--soft); border-radius:0 6px 6px 0; white-space:pre-wrap; word-break:break-word; }
+  .step b { font-size:10px; letter-spacing:.05em; color:var(--muted); display:block; text-transform:uppercase; }
+  .step.tool_call { border-color:var(--dealer); } .step.tool_result { border-color:#93c5fd; }
+  .step.answer, .step.ok { border-color:var(--me); background:#f0fdf4; } .step.thought { border-color:#c4b5fd; }
+  .step.bad { border-color:var(--bad); background:#fef2f2; }
+  .examples { display:flex; flex-wrap:wrap; gap:4px; } .examples button { font-size:11px; padding:3px 6px; }
+  table.stat { width:100%; border-collapse:collapse; font-size:12px; }
+  table.stat td, table.stat th { padding:3px 4px; border-bottom:1px solid var(--line); text-align:right; }
+  table.stat td:first-child, table.stat th:first-child { text-align:left; }
+  table.stat th { color:var(--muted); font-weight:500; font-size:11px; }
+  .lag-ok { color:var(--me); } .lag-busy { color:#d97706; font-weight:600; }
+  .flow { display:flex; align-items:center; gap:4px; font-size:11px; color:var(--muted); flex-wrap:wrap; }
+  .flow span { background:var(--soft); padding:2px 6px; border-radius:4px; }
+  .mode { display:flex; gap:4px; } .mode label { flex:1; justify-content:center; border:1px solid var(--line); border-radius:6px; padding:6px; cursor:pointer; }
+  .mode input { display:none; } .mode label:has(input:checked) { border-color:var(--fg); background:var(--soft); font-weight:600; }
+  .msg { border:1px solid var(--line); border-radius:6px; padding:6px; display:flex; flex-direction:column; gap:4px; }
+  .msg .meta { font-size:11px; color:var(--muted); }
+  #map { height:100vh; }
+  @media (max-width: 760px) { body { grid-template-columns: 1fr; grid-template-rows: auto 60vh; height:auto; } #map { height:60vh; } }
+</style>
+</head>
+<body>
+<aside>
+  <h1>FleetConnect<small>Location platform demo · Lyon · all data synthetic</small></h1>
+  <nav class="tabs"><button class="active" data-tab="explore">Explore</button><button data-tab="produce">Produce &amp; test</button></nav>
+
+  <!-- ================================================================ EXPLORE -->
+  <div class="pane" id="pane-explore">
+    <section>
+      <h2>Layers <code>GET /layers/*</code></h2>
+      <label><input type="checkbox" id="t-dealers" checked><span class="dot" style="background:var(--dealer)"></span>Tire dealers</label>
+      <label><input type="checkbox" id="t-rest" checked><span class="dot" style="background:var(--rest)"></span>Restaurants</label>
+      <label><input type="checkbox" id="t-demand"><span class="dot" style="background:var(--hex)"></span>Customer demand (H3 res7)</label>
+      <div class="hint" id="demand-note">Hexagons with fewer than 3 customers are hidden (k-anonymity).</div>
+    </section>
+
+    <section>
+      <h2>Nearest dealer <code>GET /dealers/nearest</code></h2>
+      <select id="tire"><option value="">Any tire size</option>
+        <option>195/65R15</option><option selected>205/55R16</option><option>215/60R16</option>
+        <option>225/45R17</option><option>235/55R18</option><option>315/80R22.5</option></select>
+      <div class="hint">Click anywhere on the map. You'll also see your H3 res9 cell (small) and its res7 parent (large).</div>
+      <ol class="results" id="nearest"></ol>
+    </section>
+
+    <section>
+      <h2>Restaurants on route <code>POST /restaurants/along-route</code></h2>
+      <div class="row"><select id="from"></select><select id="to"></select></div>
+      <label>Corridor <input type="range" id="buf" min="200" max="3000" step="100" value="1000" style="flex:1"> <span id="buf-v">1000 m</span></label>
+      <button id="go-route">Find restaurants</button>
+      <ol class="results" id="route-res"></ol>
+    </section>
+
+    <section>
+      <h2>Ask the agent (mock) <code>POST /agent/ask</code></h2>
+      <div class="row"><input type="text" id="q" placeholder="Ask about restaurants or dealers"><button id="ask" style="flex:none">Ask</button></div>
+      <div class="examples">
+        <button class="ghost">restaurants from Part-Dieu to the airport</button>
+        <button class="ghost">lunch from Vieux Lyon to Neuville</button>
+        <button class="ghost">nearest dealer near Bron with 205/55R16</button>
+      </div>
+      <div class="trace" id="trace"></div>
+    </section>
+  </div>
+
+  <!-- ================================================================ PRODUCE & TEST -->
+  <div class="pane" id="pane-produce" hidden>
+    <section>
+      <h2>Live pipeline <code>GET /control/status</code></h2>
+      <div class="flow"><span>source</span>→<span>producer</span>→<span>Kafka</span>→<span>sink</span>→<span>PostGIS</span>→<span>API</span>→<span>map</span></div>
+      <table class="stat" id="stat-topics"></table>
+      <table class="stat" id="stat-db"></table>
+      <div class="hint" id="stat-schemas"></div>
+      <div class="hint">Refreshes every 2 s. Also open <a href="http://localhost:8080" target="_blank">Kafka UI</a> ·
+        <a href="http://localhost:5678" target="_blank">n8n executions</a></div>
+    </section>
+
+    <section>
+      <h2>Click the map to produce</h2>
+      <div class="mode">
+        <label><input type="radio" name="mode" value="dealer" checked>Add dealer</label>
+        <label><input type="radio" name="mode" value="signup">Customer sign-up</label>
+      </div>
+      <div id="opt-dealer" class="pane" style="gap:6px">
+        <label>Geocode confidence <input type="range" id="conf" min="0" max="1" step="0.05" value="0.95" style="flex:1"> <span id="conf-v">0.95</span></label>
+        <label><input type="checkbox" id="swap"> Simulate source bug: send lat/lon swapped</label>
+        <div class="hint">Product path: validate → H3 enrich → Avro → <code>poi.dealer.v1</code> (or <code>poi.rejected.v1</code>) → sink → map.
+          Try confidence &lt; 0.6, the swap box, or click outside the Lyon box.</div>
+      </div>
+      <div id="opt-signup" class="pane" style="gap:6px" hidden>
+        <label><input type="checkbox" id="consent" checked> Customer consents to precise location</label>
+        <div class="hint">Consumer path: n8n webhook → consent IF → (H3 coarsen) → API → <code>customer.location.v1</code> → sink.
+          Untick consent and see only a hexagon survive.</div>
+      </div>
+      <div class="trace" id="produce-out"><div class="hint">Click anywhere on the map…</div></div>
+    </section>
+
+    <section>
+      <h2>Run pipeline steps <code>POST /control/run/*</code></h2>
+      <div class="grid2">
+        <button class="ghost" data-run="generate">1 · Generate source data</button>
+        <button class="ghost" data-run="publish">2 · Publish to Kafka</button>
+        <button class="ghost" data-run="schema-test">2b · Test schema changes</button>
+        <div class="row"><input type="number" id="n" value="50" min="1" max="1000" style="max-width:64px"><button class="ghost" data-run="signups">4 · Sign-ups</button></div>
+      </div>
+      <div class="hint">Each button runs the same script as the terminal (<code>pipeline/0*.py</code>) and shows its output.</div>
+      <pre id="run-out">output appears here</pre>
+    </section>
+
+    <section>
+      <h2>Peek at Kafka <code>GET /control/messages</code></h2>
+      <div class="row"><select id="peek-topic">
+        <option>poi.dealer.v1</option><option>poi.restaurant.v1</option><option>customer.location.v1</option><option>poi.rejected.v1</option>
+      </select><button class="ghost" id="peek" style="flex:none">Show newest 5</button></div>
+      <div id="peek-out" class="trace"></div>
+    </section>
+  </div>
+
+  <div class="hint">How it all connects: <code>docs/architecture.md</code> · API docs: <a href="/docs" target="_blank">/docs</a><br>
+  Map data © OpenStreetMap contributors (ODbL).</div>
+</aside>
+<div id="map"></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const api = async (path, opts) => { const r = await fetch(path, opts); if (!r.ok) throw new Error(await r.text()); return r.json(); };
+const post = (path, body) => api(path, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body ?? {}) });
+const fc = (features = []) => ({ type: "FeatureCollection", features });
+const pt = (lon, lat, props = {}) => ({ type: "Feature", geometry: { type: "Point", coordinates: [lon, lat] }, properties: props });
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const esc = (s) => String(s).replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+const errText = (e) => { try { return JSON.parse(e.message).detail; } catch { return e.message; } };
+const step = (cls, title, body) => `<div class="step ${cls}"><b>${title}</b>${body}</div>`;
+let activeTab = "explore";
+
+// ----------------------------------------------------------------- map
+const map = new maplibregl.Map({
+  container: "map", center: [4.87, 45.76], zoom: 10.6,
+  style: { version: 8,
+    sources: { osm: { type: "raster", tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"], tileSize: 256,
+                      attribution: "© OpenStreetMap contributors" } },
+    layers: [{ id: "osm", type: "raster", source: "osm", paint: { "raster-saturation": -0.6, "raster-opacity": 0.9 } }] },
+});
+map.addControl(new maplibregl.NavigationControl(), "top-right");
+
+map.on("load", async () => {
+  for (const id of ["region", "dealers", "rest", "demand", "cells", "me", "links", "route", "corridor", "hits"])
+    map.addSource(id, { type: "geojson", data: fc() });
+  // the validation region (lon 4.6–5.2, lat 45.6–45.9): clicks outside it get rejected
+  map.getSource("region").setData({ type: "Feature", properties: {}, geometry: { type: "Polygon",
+    coordinates: [[[4.6, 45.6], [5.2, 45.6], [5.2, 45.9], [4.6, 45.9], [4.6, 45.6]]] } });
+  map.addLayer({ id: "region", type: "line", source: "region", paint: { "line-color": "#64748b", "line-width": 1, "line-dasharray": [4, 3] } });
+  map.addLayer({ id: "demand", type: "fill", source: "demand", layout: { visibility: "none" },
+    paint: { "fill-color": ["interpolate", ["linear"], ["get", "customers"], 3, "#ede9fe", 10, "#a78bfa", 20, "#6d28d9"],
+             "fill-opacity": 0.55, "fill-outline-color": "#5b21b6" } });
+  map.addLayer({ id: "corridor", type: "fill", source: "corridor", paint: { "fill-color": css("--route"), "fill-opacity": 0.08 } });
+  map.addLayer({ id: "route", type: "line", source: "route", paint: { "line-color": css("--route"), "line-width": 3, "line-dasharray": [2, 1] } });
+  map.addLayer({ id: "cells-fill", type: "fill", source: "cells", filter: ["==", ["get", "res"], 7],
+    paint: { "fill-color": css("--hex"), "fill-opacity": 0.12 } });
+  map.addLayer({ id: "cells", type: "line", source: "cells",
+    paint: { "line-color": css("--me"), "line-width": ["match", ["get", "res"], 9, 2, 1.5], "line-dasharray": ["match", ["get", "res"], 9, ["literal", [1, 0]], ["literal", [3, 2]]] } });
+  map.addLayer({ id: "links", type: "line", source: "links", paint: { "line-color": css("--me"), "line-width": 1.5 } });
+  map.addLayer({ id: "dealers", type: "circle", source: "dealers",
+    paint: { "circle-radius": 4, "circle-color": css("--dealer"), "circle-stroke-color": "#fff", "circle-stroke-width": 1 } });
+  map.addLayer({ id: "rest", type: "circle", source: "rest",
+    paint: { "circle-radius": 4, "circle-color": css("--rest"), "circle-stroke-color": "#fff", "circle-stroke-width": 1 } });
+  map.addLayer({ id: "hits", type: "circle", source: "hits",
+    paint: { "circle-radius": 8, "circle-color": "transparent", "circle-stroke-color": css("--me"), "circle-stroke-width": 3 } });
+  map.addLayer({ id: "me", type: "circle", source: "me",
+    paint: { "circle-radius": 7, "circle-color": ["coalesce", ["get", "color"], css("--me")], "circle-stroke-color": "#fff", "circle-stroke-width": 2 } });
+  await refreshLayers();
+});
+
+async function refreshLayers() {
+  if (!map.getSource("dealers")) return;
+  map.getSource("dealers").setData(await api("/layers/dealers"));
+  map.getSource("rest").setData(await api("/layers/restaurants"));
+  const demand = await api("/analytics/demand-h3");
+  map.getSource("demand").setData(demand);
+  $("demand-note").textContent = `${demand.features.length} areas shown; ${demand.suppressed_areas} hidden because they have fewer than ${demand.min_group_size} customers (k-anonymity).`;
+}
+const clearOverlays = () => ["cells", "me", "links", "route", "corridor", "hits"].forEach(s => map.getSource(s)?.setData(fc()));
+
+// Route dropdowns don't need the map, so fill them straight away.
+api("/places").then(places => {
+  for (const [sel, def] of [["from", "Part-Dieu"], ["to", "Saint-Exupery Airport"]])
+    $(sel).innerHTML = places.map(p => `<option ${p.name === def ? "selected" : ""}>${p.name}</option>`).join("");
+});
+
+// ----------------------------------------------------------------- tabs
+document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {
+  activeTab = b.dataset.tab;
+  document.querySelectorAll(".tabs button").forEach(x => x.classList.toggle("active", x === b));
+  $("pane-explore").hidden = activeTab !== "explore";
+  $("pane-produce").hidden = activeTab !== "produce";
+  clearOverlays();
+  if (activeTab === "produce") pollStatus();
+});
+for (const [box, layer] of [["t-dealers", "dealers"], ["t-rest", "rest"], ["t-demand", "demand"]])
+  $(box).onchange = (e) => map.setLayoutProperty(layer, "visibility", e.target.checked ? "visible" : "none");
+
+// ----------------------------------------------------------------- clicks
+const popup = (f) => {
+  const p = f.properties, sizes = p.tire_sizes ? JSON.parse(p.tire_sizes).join(", ") : null;
+  return `<b>${esc(p.name)}</b><br>${p.dealer_id || p.restaurant_id}` +
+    (sizes ? `<br>Sizes: ${sizes}<br>${p.opening_hours}` : `<br>${p.cuisine} · ${p.price_band} · score ${p.recommendation_score}`);
+};
+map.on("click", async (e) => {
+  const { lng, lat } = e.lngLat;
+  if (activeTab === "produce") return document.querySelector("input[name=mode]:checked").value === "dealer" ? addDealer(lng, lat) : addSignup(lng, lat);
+  const hit = map.queryRenderedFeatures(e.point, { layers: ["dealers", "rest"] })[0];
+  if (hit) { new maplibregl.Popup().setLngLat(hit.geometry.coordinates).setHTML(popup(hit)).addTo(map); return; }
+  await locate(lng, lat);
+});
+["dealers", "rest"].forEach(l => {
+  map.on("mouseenter", l, () => map.getCanvas().style.cursor = "pointer");
+  map.on("mouseleave", l, () => map.getCanvas().style.cursor = "");
+});
+
+// ================================================================= EXPLORE
+async function locate(lon, lat) {
+  map.getSource("me").setData(fc([pt(lon, lat)]));
+  const cell = await api(`/h3/cell?lon=${lon}&lat=${lat}&res=9`);
+  map.getSource("cells").setData(fc([
+    { type: "Feature", geometry: cell.polygon, properties: { res: 9 } },
+    { type: "Feature", geometry: cell.parent_res7.polygon, properties: { res: 7 } }]));
+  try {
+    const tire = $("tire").value;
+    const res = await api(`/dealers/nearest?lon=${lon}&lat=${lat}&limit=5${tire ? `&tire_size=${encodeURIComponent(tire)}` : ""}`);
+    map.getSource("hits").setData(res);
+    map.getSource("links").setData(fc(res.features.map(f => ({ type: "Feature", properties: {},
+      geometry: { type: "LineString", coordinates: [[lon, lat], f.geometry.coordinates] } }))));
+    $("nearest").innerHTML = `<div class="hint">H3 res9 <code>${cell.cell}</code> · res7 <code>${cell.parent_res7.cell}</code></div>` +
+      res.features.map(f => `<li>${esc(f.properties.name)} — ${(f.properties.distance_m / 1000).toFixed(2)} km</li>`).join("");
+  } catch (err) { $("nearest").innerHTML = `<li>${esc(errText(err))}</li>`; }
+}
+
+$("buf").oninput = (e) => $("buf-v").textContent = `${e.target.value} m`;
+$("go-route").onclick = async () => {
+  const route = await api(`/route?from=${encodeURIComponent($("from").value)}&to=${encodeURIComponent($("to").value)}`);
+  const res = await post("/restaurants/along-route", { route: route.geometry, buffer_m: +$("buf").value, limit: 100 });
+  drawRoute(route, res);
+  $("route-res").innerHTML = `<div class="hint">${(route.properties.distance_m / 1000).toFixed(1)} km · ${res.features.length} restaurants · routing is mocked (straight line)</div>` +
+    res.features.slice(0, 8).map(f => `<li>${esc(f.properties.name)} — ${f.properties.cuisine}, ${f.properties.recommendation_score}, ${f.properties.metres_off_route} m off route</li>`).join("");
+};
+function drawRoute(route, res) {
+  map.getSource("route").setData(route);
+  map.getSource("corridor").setData(res.corridor ? { type: "Feature", geometry: res.corridor, properties: {} } : fc());
+  map.getSource("hits").setData(res);
+  map.getSource("links").setData(fc());
+  const c = route.geometry.coordinates, b = new maplibregl.LngLatBounds(c[0], c[0]);
+  c.forEach(p => b.extend(p));
+  map.fitBounds(b, { padding: 60 });
+}
+
+document.querySelectorAll(".examples button").forEach(b => b.onclick = () => { $("q").value = b.textContent; ask(); });
+$("ask").onclick = ask;
+$("q").onkeydown = (e) => e.key === "Enter" && ask();
+async function ask() {
+  $("trace").innerHTML = `<div class="hint">thinking…</div>`;
+  const out = await post("/agent/ask", { question: $("q").value });
+  $("trace").innerHTML = out.trace.filter(s => s.type !== "user").map(s => {
+    const body = s.text ?? (s.type === "tool_call" ? `${s.tool}  →  ${s.endpoint}\n${JSON.stringify(s.input)}` : JSON.stringify(s.output));
+    return step(s.type, s.type.replace("_", " "), esc(body));
+  }).join("");
+  const m = out.map;
+  clearOverlays();
+  if (m.plan_route && m.find_restaurants_along_route) drawRoute(m.plan_route, m.find_restaurants_along_route);
+  if (m.find_place && m.find_nearest_dealers) {
+    const p = m.find_place;
+    map.getSource("me").setData(fc([pt(p.lon, p.lat)]));
+    map.getSource("hits").setData(m.find_nearest_dealers);
+    map.getSource("links").setData(fc(m.find_nearest_dealers.features.map(f => ({ type: "Feature", properties: {},
+      geometry: { type: "LineString", coordinates: [[p.lon, p.lat], f.geometry.coordinates] } }))));
+    map.flyTo({ center: [p.lon, p.lat], zoom: 13 });
+  }
+}
+
+// ================================================================= PRODUCE & TEST
+document.querySelectorAll("input[name=mode]").forEach(r => r.onchange = () => {
+  $("opt-dealer").hidden = r.value !== "dealer" || !r.checked;
+  $("opt-signup").hidden = r.value !== "signup" || !r.checked;
+});
+$("conf").oninput = (e) => $("conf-v").textContent = (+e.target.value).toFixed(2);
+const afterSink = () => setTimeout(() => { refreshLayers(); pollStatus(); }, 1500); // give the sink a moment
+
+async function addDealer(lon, lat) {
+  $("produce-out").innerHTML = `<div class="hint">publishing…</div>`;
+  try {
+    const r = await post("/control/dealer", { lon, lat, geocode_confidence: +$("conf").value, swap_lon_lat: $("swap").checked });
+    if (r.status === "rejected") {
+      map.getSource("me").setData(fc([pt(lon, lat, { color: css("--bad") })]));
+      $("produce-out").innerHTML =
+        step("", "1 · sent by source", `coordinates [${r.sent_coordinates.map(v => v.toFixed(5)).join(", ")}]${$("swap").checked ? " (lat/lon swapped!)" : ""}`) +
+        step("bad", "2 · validation failed", `<code>${r.reason}</code>`) +
+        step("bad", "3 · dead-letter", `${r.topic} · key ${r.key} · partition ${r.partition} · offset ${r.offset}<br>Not stored, not on the map.`);
+    } else {
+      const rec = r.record;
+      map.getSource("me").setData(fc([pt(lon, lat, { color: css("--dealer") })]));
+      $("produce-out").innerHTML =
+        step("ok", "1 · validation passed", `in region, confidence ${rec.geocode_confidence}`) +
+        step("ok", "2 · enriched", `h3_res9 <code>${rec.h3_res9}</code><br>h3_res7 <code>${rec.h3_res7}</code><br>${rec.geometry_wkt}`) +
+        step("ok", "3 · Avro + Schema Registry", `schema id ${r.schema_id} · ${r.avro_bytes} bytes (same record as JSON: ${r.json_bytes} bytes)`) +
+        step("ok", "4 · Kafka", `${r.topic} · key ${r.key} · partition ${r.partition} · offset ${r.offset}`) +
+        step("ok", "5 · sink → PostGIS → API → map", `the new blue dot appears in ~1 s`);
+      afterSink();
+    }
+  } catch (err) { $("produce-out").innerHTML = step("bad", "error", esc(errText(err))); }
+}
+
+async function addSignup(lon, lat) {
+  $("produce-out").innerHTML = `<div class="hint">sending to n8n…</div>`;
+  try {
+    const r = await post("/control/signup", { lon, lat, consent_precise_location: $("consent").checked });
+    const res = r.result, rec = res.record || {};
+    if (res.status !== "published") throw new Error(JSON.stringify({ detail: JSON.stringify(res) }));
+    const cell = await api(`/h3/cell?lon=${lon}&lat=${lat}&res=7`);
+    map.getSource("cells").setData(fc([{ type: "Feature", geometry: cell.polygon, properties: { res: 7 } }]));
+    map.getSource("me").setData(rec.lon != null ? fc([pt(rec.lon, rec.lat)]) : fc());
+    $("produce-out").innerHTML =
+      step("", "1 · n8n webhook received", esc(JSON.stringify(r.sent_to_n8n))) +
+      step(rec.lon != null ? "ok" : "thought", "2 · consent IF node",
+        rec.lon != null ? "TRUE → publish precise point" : "FALSE → coarsen via GET /h3/cell?res=7, coordinates dropped") +
+      step("ok", "3 · API → Kafka", `${res.topic} · precision <code>${res.precision}</code>`) +
+      step("ok", "4 · what was stored", `lon ${rec.lon} · lat ${rec.lat} · h3_res9 ${rec.h3_res9}<br>h3_res7 <code>${rec.h3_res7}</code> (purple hexagon)`) +
+      step("", "see it", `n8n → Executions shows this run · toggle the demand layer on the Explore tab`);
+    afterSink();
+  } catch (err) { $("produce-out").innerHTML = step("bad", "error", esc(errText(err))); }
+}
+
+document.querySelectorAll("[data-run]").forEach(b => b.onclick = async () => {
+  const buttons = document.querySelectorAll("[data-run]");
+  buttons.forEach(x => x.disabled = true);
+  $("run-out").textContent = `running ${b.textContent.trim()}…`;
+  try {
+    const r = await post(`/control/run/${b.dataset.run}?n=${+$("n").value || 50}`);
+    $("run-out").textContent = `$ ${r.command}   (exit ${r.exit_code})\n\n${r.output}`;
+    afterSink();
+  } catch (err) { $("run-out").textContent = errText(err); }
+  buttons.forEach(x => x.disabled = false);
+});
+
+$("peek").onclick = async () => {
+  $("peek-out").innerHTML = `<div class="hint">reading…</div>`;
+  const msgs = await api(`/control/messages?topic=${$("peek-topic").value}&n=5`);
+  $("peek-out").innerHTML = msgs.length ? msgs.map(m => `<div class="msg">
+      <div class="meta">partition <b>${m.partition}</b> · offset <b>${m.offset}</b> · key <b>${esc(m.key)}</b> · ${m.format} · ${m.bytes} bytes</div>
+      <pre>${esc(JSON.stringify(m.value, null, 1))}</pre></div>`).join("") : `<div class="hint">topic is empty</div>`;
+};
+
+async function pollStatus() {
+  if (activeTab !== "produce") return;
+  try {
+    const s = await api("/control/status");
+    $("stat-topics").innerHTML = `<tr><th>Kafka topic</th><th>partitions</th><th>messages</th><th>sink lag</th></tr>` +
+      Object.entries(s.topics).map(([t, v]) => `<tr><td><code>${t}</code></td><td>${v.partitions}</td><td>${v.messages}</td>
+        <td class="${v.sink_lag ? "lag-busy" : "lag-ok"}">${v.sink_lag ?? "—"}</td></tr>`).join("");
+    const d = s.postgis;
+    $("stat-db").innerHTML = `<tr><th>PostGIS table</th><th>rows</th></tr>
+      <tr><td><code>poi.dealer</code></td><td>${d.dealers}</td></tr>
+      <tr><td><code>poi.restaurant</code></td><td>${d.restaurants}</td></tr>
+      <tr><td><code>customer.location</code></td><td>${d.customers} <span class="hint">(${d.customers_point} point · ${d.customers_area_only} area only)</span></td></tr>`;
+    $("stat-schemas").innerHTML = "Schemas: " + Object.entries(s.schemas).map(([k, v]) => `<code>${k}</code> v${v}`).join(" ");
+  } catch (err) { $("stat-topics").innerHTML = `<tr><td>${esc(errText(err))}</td></tr>`; }
+}
+setInterval(pollStatus, 2000);
+</script>
+</body>
+</html>
