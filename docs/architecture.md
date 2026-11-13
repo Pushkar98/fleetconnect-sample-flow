@@ -112,7 +112,7 @@ sequenceDiagram
   end
   A->>A: re-check (no coords without consent → 422)
   A->>K: customer.location.v1 (Avro)
-  K->>DB: via sink; CHECK constraint refuses a point without consent
+  K->>DB: via sink, CHECK constraint refuses a point without consent
   Note over N,DB: privacy enforced 3 times: workflow, API, database
 ```
 
