@@ -9,6 +9,7 @@ produces the same row. The `event_time <=` guard ignores stale (out-of-order) ev
 
 Watch it: Kafka UI -> Consumers -> postgis-sink (lag should drop to 0).
 """
+import signal
 import time
 
 import psycopg
@@ -68,11 +69,22 @@ if __name__ == "__main__":
     consumer.subscribe(list(UPSERTS))
     print("postgis-sink: waiting for messages on", ", ".join(UPSERTS), flush=True)
 
-    while True:
+    # Graceful shutdown: `docker compose stop/restart` sends SIGTERM. Closing the consumer
+    # tells Kafka "I'm leaving the group" so a new sink gets the partitions at once,
+    # instead of Kafka waiting ~45 s (session timeout) to notice this one is gone.
+    running = True
+
+    def stop(signum, frame):
+        global running
+        running = False
+
+    signal.signal(signal.SIGTERM, stop)
+
+    while running:
         try:
             with psycopg.connect(PG_DSN) as conn:
                 counts = {}
-                while True:
+                while running:
                     msg = consumer.poll(1.0)
                     if msg is None:
                         if counts:
@@ -90,3 +102,6 @@ if __name__ == "__main__":
         except psycopg.OperationalError as e:
             print("database unavailable, retrying in 5s:", e, flush=True)
             time.sleep(5)
+
+    consumer.close()  # leave the group cleanly (offsets are already committed)
+    print("postgis-sink: stopped cleanly", flush=True)

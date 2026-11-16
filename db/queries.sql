@@ -17,11 +17,11 @@ ORDER BY geom <-> ST_SetSRID(ST_MakePoint(4.8590, 45.7605), 4326)
 LIMIT 5;
 
 -- 2. WITHIN RADIUS — dealers within 2 km of Bron that stock 205/55R16.
---    Snowflake: ST_DWITHIN(geo, point, 2000)
+--    Snowflake: ST_DWITHIN(geo, point, 2000) AND ARRAY_CONTAINS('205/55R16'::VARIANT, tire_sizes)
 SELECT dealer_id, name, tire_sizes
 FROM poi.dealer
 WHERE ST_DWithin(geom::geography, ST_SetSRID(ST_MakePoint(4.9100, 45.7380), 4326)::geography, 2000)
-  AND '205/55R16' = ANY (tire_sizes);
+  AND tire_sizes @> ARRAY['205/55R16'];   -- @> uses the GIN index; '...' = ANY(tire_sizes) would not
 
 -- 3. POINT IN POLYGON — which sales zone is each of the first 10 dealers in?
 --    Snowflake: ST_CONTAINS(zone.geo, dealer.geo)

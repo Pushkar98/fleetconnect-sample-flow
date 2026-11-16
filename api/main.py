@@ -87,7 +87,7 @@ def dealers_nearest(lon: float, lat: float, limit: int = Query(5, le=50), tire_s
                    round(ST_Distance(geom::geography, {PT}::geography)) AS distance_m,
                    ST_X(geom) lon, ST_Y(geom) lat
             FROM poi.dealer
-            WHERE %(tire)s::text IS NULL OR %(tire)s = ANY (tire_sizes)
+            WHERE %(tire)s::text IS NULL OR tire_sizes @> ARRAY[%(tire)s::text]  -- @> can use the GIN index
             ORDER BY geom <-> {PT}
             LIMIT %(limit)s * 4
         ) shortlist
